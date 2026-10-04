@@ -1,0 +1,6 @@
+{
+  "name": "WanderWise — AI Trip Planner",
+  "description": "An intelligent, constraint-aware travel itinerary planner powered by Google Gemini, tailoring trips to your budget, pace, and interests.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
