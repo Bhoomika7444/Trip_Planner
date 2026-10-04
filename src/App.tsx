@@ -13,7 +13,6 @@ import { LoadingScreen } from './components/LoadingScreen';
 import { ItineraryView } from './components/ItineraryView';
 import { RefineSection } from './components/RefineSection';
 import { PromptInspectorModal } from './components/PromptInspectorModal';
-import { Footer } from './components/Footer';
 import { AlertCircle, RefreshCw } from 'lucide-react';
 
 const DEFAULT_PREFERENCES: TripPreferences = {
@@ -298,9 +297,6 @@ export default function App() {
         debugPrompt={debugPrompt}
         lastUserPrompt={buildTripPrompt(preferences)}
       />
-
-      {/* Footer */}
-      <Footer onOpenPromptInspector={() => setIsPromptInspectorOpen(true)} />
     </div>
   );
 }
